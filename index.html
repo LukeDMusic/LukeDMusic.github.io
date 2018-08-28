@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body background="images/img1.jpg">
+        
+        <div id="player">
+        <embed name="myMusic" loop="true" hidden="true" src="Sounds/despacito3.mp3"></embed>
+        </div>
+    
+        
+        <h1 id="title">ENERGY SWORD SUNDAY</h1>
+        <div id="date"></div>
+        <h2 id="day">Today is Energy Sword Sunday!</h2>
+        
+        
+            <img id="mainPic" src="images/img1.jpg"/>
+    
+        <img src="Images/frog.gif"/>
+    <img src="Images/frog.gif"/>
+    <img src="Images/frog.gif"/>
+    <img src="Images/frog.gif"/>
+    <img src="Images/frog.gif"/>
+     
+        
+        <a href="https://www.patreon.com/EnergySwordSunday" id="patreon">
+            <h3>Please support our Patreon!</h3>
+            <break></break>
+            <img id="patreon" src="Images/patreon.png"/>
+        </a>
+       
+    <script>
+        
+        var d = new Date();
+        var weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+        var n = weekday[d.getDay()];
+        
+      let d = new Date();
+      document.getElementById("date").innerHTML = "<h1>Today's date is " + d + "</h1>"
+    </script>
+    
+     <script src="js/script.js"></script>
+
+    </body>
+</html>
