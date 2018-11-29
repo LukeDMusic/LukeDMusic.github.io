@@ -64,6 +64,10 @@ h2 {
    padding-bottom: 10%;
 }
 
+#resume {
+   width:100%;
+}
+
 #blog1 {
    width:50%;
    height:auto;
